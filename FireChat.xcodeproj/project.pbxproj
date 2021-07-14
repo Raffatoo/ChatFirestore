@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52E4DA0F269075D3008476E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4DA0E269075D3008476E0 /* AppDelegate.swift */; };
-		52E4DA11269075D3008476E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4DA10269075D3008476E0 /* SceneDelegate.swift */; };
-		52E4DA13269075D3008476E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4DA12269075D3008476E0 /* ContentView.swift */; };
-		52E4DA18269075D5008476E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E4DA17269075D5008476E0 /* Preview Assets.xcassets */; };
-		52E4DA1B269075D5008476E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E4DA19269075D5008476E0 /* LaunchScreen.storyboard */; };
-		52E4DA2626907635008476E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E4DA2526907635008476E0 /* Assets.xcassets */; };
-		52E4DA2926907678008476E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4DA2826907678008476E0 /* Extensions.swift */; };
+		524E6ED6269EEA08007E9159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E6ED5269EEA08007E9159 /* AppDelegate.swift */; };
+		524E6ED8269EEA08007E9159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E6ED7269EEA08007E9159 /* SceneDelegate.swift */; };
+		524E6EDA269EEA08007E9159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E6ED9269EEA08007E9159 /* ViewController.swift */; };
+		524E6EDD269EEA08007E9159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E6EDB269EEA08007E9159 /* Main.storyboard */; };
+		524E6EDF269EEA0A007E9159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524E6EDE269EEA0A007E9159 /* Assets.xcassets */; };
+		524E6EE2269EEA0A007E9159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E6EE0269EEA0A007E9159 /* LaunchScreen.storyboard */; };
+		524E6EF5269EEB51007E9159 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524E6EF4269EEB51007E9159 /* ConversationsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52E4DA0B269075D3008476E0 /* ChatFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52E4DA0E269075D3008476E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52E4DA10269075D3008476E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52E4DA12269075D3008476E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		52E4DA17269075D5008476E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		52E4DA1A269075D5008476E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		52E4DA1C269075D5008476E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52E4DA2526907635008476E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52E4DA2826907678008476E0 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		524E6ED2269EEA08007E9159 /* FireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524E6ED5269EEA08007E9159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		524E6ED7269EEA08007E9159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		524E6ED9269EEA08007E9159 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		524E6EDC269EEA08007E9159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		524E6EDE269EEA0A007E9159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524E6EE1269EEA0A007E9159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524E6EE3269EEA0A007E9159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524E6EF4269EEB51007E9159 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52E4DA08269075D3008476E0 /* Frameworks */ = {
+		524E6ECF269EEA08007E9159 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,87 +39,79 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52E4DA02269075D3008476E0 = {
+		524E6EC9269EEA08007E9159 = {
 			isa = PBXGroup;
 			children = (
-				52E4DA0D269075D3008476E0 /* ChatFirestore */,
-				52E4DA0C269075D3008476E0 /* Products */,
+				524E6ED4269EEA08007E9159 /* FireChat */,
+				524E6ED3269EEA08007E9159 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		52E4DA0C269075D3008476E0 /* Products */ = {
+		524E6ED3269EEA08007E9159 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52E4DA0B269075D3008476E0 /* ChatFirestore.app */,
+				524E6ED2269EEA08007E9159 /* FireChat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52E4DA0D269075D3008476E0 /* ChatFirestore */ = {
+		524E6ED4269EEA08007E9159 /* FireChat */ = {
 			isa = PBXGroup;
 			children = (
-				52E4DA31269076E7008476E0 /* Model */,
-				52E4DA30269076E5008476E0 /* View */,
-				52E4DA2F269076E3008476E0 /* ViewModel */,
-				52E4DA2E269076E2008476E0 /* Controller */,
-				52E4DA2D269076E0008476E0 /* API */,
-				52E4DA2B269076CB008476E0 /* Utils */,
-				52E4DA2826907678008476E0 /* Extensions.swift */,
-				52E4DA2526907635008476E0 /* Assets.xcassets */,
-				52E4DA0E269075D3008476E0 /* AppDelegate.swift */,
-				52E4DA10269075D3008476E0 /* SceneDelegate.swift */,
-				52E4DA12269075D3008476E0 /* ContentView.swift */,
-				52E4DA19269075D5008476E0 /* LaunchScreen.storyboard */,
-				52E4DA1C269075D5008476E0 /* Info.plist */,
-				52E4DA16269075D5008476E0 /* Preview Content */,
+				524E6EF3269EEAA2007E9159 /* Model */,
+				524E6EF2269EEA9F007E9159 /* View */,
+				524E6EF1269EEA9E007E9159 /* ViewModel */,
+				524E6EF0269EEA9D007E9159 /* Controller */,
+				524E6EEF269EEA9B007E9159 /* API */,
+				524E6EEC269EEA8B007E9159 /* Utils */,
+				524E6ED5269EEA08007E9159 /* AppDelegate.swift */,
+				524E6ED7269EEA08007E9159 /* SceneDelegate.swift */,
+				524E6ED9269EEA08007E9159 /* ViewController.swift */,
+				524E6EDB269EEA08007E9159 /* Main.storyboard */,
+				524E6EDE269EEA0A007E9159 /* Assets.xcassets */,
+				524E6EE0269EEA0A007E9159 /* LaunchScreen.storyboard */,
+				524E6EE3269EEA0A007E9159 /* Info.plist */,
 			);
-			path = ChatFirestore;
+			path = FireChat;
 			sourceTree = "<group>";
 		};
-		52E4DA16269075D5008476E0 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				52E4DA17269075D5008476E0 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		52E4DA2B269076CB008476E0 /* Utils */ = {
+		524E6EEC269EEA8B007E9159 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		52E4DA2D269076E0008476E0 /* API */ = {
+		524E6EEF269EEA9B007E9159 /* API */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = API;
 			sourceTree = "<group>";
 		};
-		52E4DA2E269076E2008476E0 /* Controller */ = {
+		524E6EF0269EEA9D007E9159 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				524E6EF4269EEB51007E9159 /* ConversationsController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		52E4DA2F269076E3008476E0 /* ViewModel */ = {
+		524E6EF1269EEA9E007E9159 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		52E4DA30269076E5008476E0 /* View */ = {
+		524E6EF2269EEA9F007E9159 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		52E4DA31269076E7008476E0 /* Model */ = {
+		524E6EF3269EEAA2007E9159 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -129,38 +121,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52E4DA0A269075D3008476E0 /* ChatFirestore */ = {
+		524E6ED1269EEA08007E9159 /* FireChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52E4DA1F269075D5008476E0 /* Build configuration list for PBXNativeTarget "ChatFirestore" */;
+			buildConfigurationList = 524E6EE6269EEA0A007E9159 /* Build configuration list for PBXNativeTarget "FireChat" */;
 			buildPhases = (
-				52E4DA07269075D3008476E0 /* Sources */,
-				52E4DA08269075D3008476E0 /* Frameworks */,
-				52E4DA09269075D3008476E0 /* Resources */,
+				524E6ECE269EEA08007E9159 /* Sources */,
+				524E6ECF269EEA08007E9159 /* Frameworks */,
+				524E6ED0269EEA08007E9159 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ChatFirestore;
-			productName = ChatFirestore;
-			productReference = 52E4DA0B269075D3008476E0 /* ChatFirestore.app */;
+			name = FireChat;
+			productName = FireChat;
+			productReference = 524E6ED2269EEA08007E9159 /* FireChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		52E4DA03269075D3008476E0 /* Project object */ = {
+		524E6ECA269EEA08007E9159 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					52E4DA0A269075D3008476E0 = {
+					524E6ED1269EEA08007E9159 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 52E4DA06269075D3008476E0 /* Build configuration list for PBXProject "ChatFirestore" */;
+			buildConfigurationList = 524E6ECD269EEA08007E9159 /* Build configuration list for PBXProject "FireChat" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,48 +160,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 52E4DA02269075D3008476E0;
-			productRefGroup = 52E4DA0C269075D3008476E0 /* Products */;
+			mainGroup = 524E6EC9269EEA08007E9159;
+			productRefGroup = 524E6ED3269EEA08007E9159 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52E4DA0A269075D3008476E0 /* ChatFirestore */,
+				524E6ED1269EEA08007E9159 /* FireChat */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		52E4DA09269075D3008476E0 /* Resources */ = {
+		524E6ED0269EEA08007E9159 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E4DA1B269075D5008476E0 /* LaunchScreen.storyboard in Resources */,
-				52E4DA2626907635008476E0 /* Assets.xcassets in Resources */,
-				52E4DA18269075D5008476E0 /* Preview Assets.xcassets in Resources */,
+				524E6EE2269EEA0A007E9159 /* LaunchScreen.storyboard in Resources */,
+				524E6EDF269EEA0A007E9159 /* Assets.xcassets in Resources */,
+				524E6EDD269EEA08007E9159 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52E4DA07269075D3008476E0 /* Sources */ = {
+		524E6ECE269EEA08007E9159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E4DA0F269075D3008476E0 /* AppDelegate.swift in Sources */,
-				52E4DA11269075D3008476E0 /* SceneDelegate.swift in Sources */,
-				52E4DA13269075D3008476E0 /* ContentView.swift in Sources */,
-				52E4DA2926907678008476E0 /* Extensions.swift in Sources */,
+				524E6EDA269EEA08007E9159 /* ViewController.swift in Sources */,
+				524E6ED6269EEA08007E9159 /* AppDelegate.swift in Sources */,
+				524E6EF5269EEB51007E9159 /* ConversationsController.swift in Sources */,
+				524E6ED8269EEA08007E9159 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52E4DA19269075D5008476E0 /* LaunchScreen.storyboard */ = {
+		524E6EDB269EEA08007E9159 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				52E4DA1A269075D5008476E0 /* Base */,
+				524E6EDC269EEA08007E9159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		524E6EE0269EEA0A007E9159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524E6EE1269EEA0A007E9159 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		52E4DA1D269075D5008476E0 /* Debug */ = {
+		524E6EE4269EEA0A007E9159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,7 +278,7 @@
 			};
 			name = Debug;
 		};
-		52E4DA1E269075D5008476E0 /* Release */ = {
+		524E6EE5269EEA0A007E9159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,42 +333,38 @@
 			};
 			name = Release;
 		};
-		52E4DA20269075D5008476E0 /* Debug */ = {
+		524E6EE7269EEA0A007E9159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ChatFirestore/Preview Content\"";
 				DEVELOPMENT_TEAM = GA3WT3785W;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ChatFirestore/Info.plist;
+				INFOPLIST_FILE = FireChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reddixo.ChatFirestore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddixo.FireChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		52E4DA21269075D5008476E0 /* Release */ = {
+		524E6EE8269EEA0A007E9159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"ChatFirestore/Preview Content\"";
 				DEVELOPMENT_TEAM = GA3WT3785W;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = ChatFirestore/Info.plist;
+				INFOPLIST_FILE = FireChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reddixo.ChatFirestore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reddixo.FireChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -378,25 +374,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52E4DA06269075D3008476E0 /* Build configuration list for PBXProject "ChatFirestore" */ = {
+		524E6ECD269EEA08007E9159 /* Build configuration list for PBXProject "FireChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52E4DA1D269075D5008476E0 /* Debug */,
-				52E4DA1E269075D5008476E0 /* Release */,
+				524E6EE4269EEA0A007E9159 /* Debug */,
+				524E6EE5269EEA0A007E9159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52E4DA1F269075D5008476E0 /* Build configuration list for PBXNativeTarget "ChatFirestore" */ = {
+		524E6EE6269EEA0A007E9159 /* Build configuration list for PBXNativeTarget "FireChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52E4DA20269075D5008476E0 /* Debug */,
-				52E4DA21269075D5008476E0 /* Release */,
+				524E6EE7269EEA0A007E9159 /* Debug */,
+				524E6EE8269EEA0A007E9159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 52E4DA03269075D3008476E0 /* Project object */;
+	rootObject = 524E6ECA269EEA08007E9159 /* Project object */;
 }

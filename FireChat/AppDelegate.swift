@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ChatFirestore
+//  FireChat
 //
-//  Created by Cruz Torres on 03/07/21.
+//  Created by Cruz Torres on 14/07/21.
 //
 
 import UIKit
